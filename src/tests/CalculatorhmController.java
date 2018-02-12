@@ -1,4 +1,4 @@
-package calculatorhm;
+package tests;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -32,7 +32,8 @@ class addlistener implements ActionListener {
 			v.setresult(m.getresult());
 		}
 		catch(Exception e) {
-			 JOptionPane.showMessageDialog(null, "you have to enter two integer values");
+			System.out.println("you have to enter two integer values");
+			 //JOptionPane.showMessageDialog(null, "you have to enter two integer values");
 		}
 	}
 	
@@ -51,7 +52,8 @@ class sublistener implements ActionListener {
 			v.setresult(m.getresult());
 		}
 		catch(Exception e) {
-			 JOptionPane.showMessageDialog(null, "you have to enter two integer values");
+			System.out.println("you have to enter two integer values");
+			// JOptionPane.showMessageDialog(null, "you have to enter two integer values");
 		}
 	}
 	
@@ -70,7 +72,8 @@ class divlistener implements ActionListener {
 			v.setresult(m.getresult());
 		}
 		catch(Exception e) {
-			 JOptionPane.showMessageDialog(null, "you have to enter two integer values");
+			System.out.println("you have to enter two integer values");
+			// JOptionPane.showMessageDialog(null, "you have to enter two integer values");
 		}
 	}
 	
@@ -89,7 +92,8 @@ class mullistener implements ActionListener {
 			v.setresult(m.getresult());
 		}
 		catch(Exception e) {
-			 JOptionPane.showMessageDialog(null, "you have to enter two integer values");
+			System.out.println("you have to enter two integer values");
+			// JOptionPane.showMessageDialog(null, "you have to enter two integer values");
 		}
 	}
 	
@@ -108,7 +112,8 @@ class modlistener implements ActionListener {
 			v.setresult(m.getresult());
 		}
 		catch(Exception e) {
-			 JOptionPane.showMessageDialog(null, "you have to enter two integer values");
+			System.out.println("you have to enter two integer values");
+			// JOptionPane.showMessageDialog(null, "you have to enter two integer values");
 		}
 	}
 	
@@ -125,7 +130,8 @@ class squlistener implements ActionListener {
 			v.setresult(m.getresult());
 		}
 		catch(Exception e) {
-			 JOptionPane.showMessageDialog(null, "you have to enter two integer values");
+			System.out.println("you have to enter two integer values");
+			// JOptionPane.showMessageDialog(null, "you have to enter two integer values");
 		}
 	}
 	

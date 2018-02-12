@@ -1,4 +1,4 @@
-package calculatorhm;
+package tests;
 
 import javax.swing.JOptionPane;
 
@@ -18,7 +18,8 @@ public class CalculatorhmModal {
    }
    public int div(int firstnum,int secnum) {
 	   if(secnum==0) {
-		   JOptionPane.showMessageDialog(null, "you can not div over zero");
+		   System.out.println("you can not div over zero");
+		   //JOptionPane.showMessageDialog(null, "you can not div over zero");
 		   result=-0;
 	   }
 	   else { result=firstnum/secnum;}
@@ -30,7 +31,8 @@ public class CalculatorhmModal {
    }
    public int squer(int num) {
 	   if(num<0) {
-		   JOptionPane.showMessageDialog(null, "you can not find squre root for negative number");
+		   System.out.println("you can not find squre root for negative number");
+		   //JOptionPane.showMessageDialog(null, "you can not find squre root for negative number");
 		   result=-0;
 	   }
 	   else { result=(int) Math.sqrt(num);

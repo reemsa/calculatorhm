@@ -1,4 +1,4 @@
-package calculatorhm;
+package tests;
 
 public class Calculatrohm {
 public static void main( String argv []) {
