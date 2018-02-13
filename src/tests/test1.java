@@ -45,6 +45,11 @@ public class test1 {
 		assertEquals(0,x);
 	}
 
-
+@Test
+	public void testdiv() {
+		//fail("Not yet implemented");
+		int x=c.m.div(5,0);
+		assertEquals(0,x);
+	}
 
 }
